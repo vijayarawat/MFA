@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import UserDetails
 from django.contrib.auth.hashers import make_password, check_password
-
+vijaya added some code to test the feature.This is added to check and merge feature of the code 
 
 class UserDetailsSerializer(serializers.ModelSerializer):
     class Meta:
