@@ -10,8 +10,8 @@ class UserDetailsSerializer(serializers.ModelSerializer):
 
 class LoginSerializer2:
     def validate(self,data):
-        print("Dummy data added to check the feature-vijaya merge conflicts")
-        print(data)
+        print("Code update in feature-vijaya bracch to check merge conflict")
+        print("data updated in feature branch vijaya")
 
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
