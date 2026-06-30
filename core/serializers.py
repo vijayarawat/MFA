@@ -13,6 +13,8 @@ class LoginSerializer2:
         print("Code update in feature-vijaya bracch to check merge conflict")
         print("data updated in feature branch vijaya")
 
+class AB:
+    pass
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
     password = serializers.CharField()
