@@ -1,12 +1,17 @@
 from rest_framework import serializers
 from .models import UserDetails
 from django.contrib.auth.hashers import make_password, check_password
-This is a feature branch for feature-vijaya
+This is a feature branch for feature-vijaya. THis is also updated code in this file.
 
 class UserDetailsSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserDetails
         fields = "__all__"
+
+class LoginSerializer2:
+    def validate(self,data):
+        print("Dummy data added to check the feature-vijaya merge conflicts")
+        print(data)
 
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
@@ -29,3 +34,6 @@ class LoginSerializer(serializers.Serializer):
         
         data['user'] = user
         return data
+    
+
+        
