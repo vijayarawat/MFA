@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import UserDetails
 from django.contrib.auth.hashers import make_password, check_password
-This is a feature branch for feature-vijaya. THis is also updated code in this file.
+# This is a feature branch for feature-vijaya. THis is also updated code in this file.
 
 class UserDetailsSerializer(serializers.ModelSerializer):
     class Meta:
