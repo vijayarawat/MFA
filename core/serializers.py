@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import UserDetails
 from django.contrib.auth.hashers import make_password, check_password
-this old line is fully remove. I am gettign confused now.
+This is a feature branch for feature-vijaya
 
 class UserDetailsSerializer(serializers.ModelSerializer):
     class Meta:
